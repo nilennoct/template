@@ -14,7 +14,7 @@
 %%
 \NeedsTeXFormat{LaTeX2e}[1999/12/01]
 \ProvidesClass{csbachelor}
-    [2008/10/24 v0.1 ZJU Dissertation Class]
+    [2014/03/17 v0.1.1 ZJU Dissertation Class, nilennoct, bryandeng, rk2900]
 
 \DeclareOption{year}{\def\zjubibstyle{A}}
 \DeclareOption{numberorder}{\def\zjubibstyle{N}}
