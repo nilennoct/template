@@ -1,2 +1,8 @@
 *.pdf
 *.fdb_latexmk
+*.out
+*.log
+*.synctex.gz
+*.lot
+*.aux
+*.toc
