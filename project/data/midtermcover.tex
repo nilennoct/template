@@ -1,0 +1,40 @@
+%%============================================================
+%% 中期报告中文封面
+
+  %实习单位/实验室名称
+  \DeclareRobustCommand{\zjulabnamec}{}
+  %项目开始日期
+  \DeclareRobustCommand{\zjustarttime}{}
+  %项目结束日期
+  \DeclareRobustCommand{\zjuendtime}{}
+  %填表日期
+  \DeclareRobustCommand{\zjufilldate}{ 年 月 日}
+%%============================================================
+
+\thispagestyle{empty}
+
+\vspace{40mm}
+
+\centerline{\songti\erhao\textbf{浙江大学毕业设计}}
+\vspace{20mm}
+\centerline{\heiti\erhao\textbf{本科学生中期报告}}
+\vspace{20mm}
+
+\begin{tabbing}
+               \hspace{10mm} \= \songti\sihao\bf 学生姓名：\quad \quad \quad \quad \= \underline{\makebox[8cm]{\sihao\bf\zjuauthornamec}} \\[2mm]
+              \> \songti\sihao\bf 实习单位/实验室： \> \underline{\makebox[8cm]{\sihao\bf\zjulabnamec}} \\[2mm]
+              \> \songti\sihao\bf 项目名称： \> \underline{\makebox[8cm]{\sihao\bf\zjutitlec}} \\[2mm]
+              \> \songti\sihao\bf 导师姓名： \> \underline{\makebox[8cm]{\sihao\bf\zjumentorc}} \\[2mm]
+              \> \songti\sihao\bf 合作导师姓名： \> \underline{\makebox[8cm]{\sihao\bf\zjumentorc}} \\[2mm]
+              \> \songti\sihao\bf 项目开始日期： \> \underline{\makebox[8cm]{\sihao\bf\zjustarttime}} \\[2mm]
+              \> \songti\sihao\bf 项目结束日期： \> \underline{\makebox[8cm]{\sihao\bf\zjuendtime}} \\[2mm]
+\end{tabbing}
+
+\begin{flushright}
+    \sihao\bf\textbf{填表日期}{\makebox[4cm]{\zjufilldate}} \\[2mm]
+\end{flushright}
+%%============================================================
+% empty page for two-page print
+\ifthenelse{\equal{\zjuside}{T}}{%
+  \newpage\mbox{}%
+  \thispagestyle{empty}}{}
