@@ -6,3 +6,7 @@
 *.lot
 *.aux
 *.toc
+*.bbl
+*.blg
+*.nlo
+*.bak
